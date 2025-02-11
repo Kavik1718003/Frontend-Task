@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section {
+    background-color: black;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.image-box img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+	
+    
+}
+
+.image-box p {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.blur img {
+    filter: blur(8px);
+}
+
+
+.brightness-low img {
+    filter: brightness(30%);
+}
+
+.brightness-high img {
+    filter: brightness(150%);
+}
+
+.contrast-one{
+	filter:contrast(30%);
+}
+.contrast-two{
+	filter:contrast(60%);
+}
+.contrast-three{
+	filter:contrast(90%);
+}
+.contrast-four{
+	filter:contrast(100%);
+}
+
+.Grayscale-one{
+	filter:grayscale(30%);
+}
+.Grayscale-two{
+	filter:grayscale(60%);
+}
+.Grayscale-three{
+	filter:grayscale(90%);
+}
+.Grayscale-four{
+	filter:grayscale(100%);
+}
+
+.Hue-rotate-one {
+    filter: hue-rotate(30deg);
+}
+.Hue-rotate-two {
+    filter: hue-rotate(60deg);
+}
+.Hue-rotate-three {
+    filter: hue-rotate(90deg);
+}
+.Hue-rotate-four {
+    filter: hue-rotate(100deg);
+}
+
+
+.invert-one {
+    filter: invert(30%);
+}
+.invert-two {
+    filter: invert(60%);
+}
+.invert-three {
+    filter: invert(90%);
+}
+.invert-four {
+    filter: invert(100%);
+}
+
+.saturate-one {
+    filter: saturate(1.5);
+}
+.saturate-two {
+    filter: saturate(2);
+}
+.saturate-three {
+    filter: saturate(3);
+}
+.saturate-four {
+    filter: saturate(4);
+}
+
+.drop-shadow {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+
+
+
+
+
+
